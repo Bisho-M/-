@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Google Tag Manager-->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-TSL5KMB');</script>
+        <!-- End Google Tag Manager -->
+    <title>
+        Bishoy George: Freelance Web Developer - Full Stack | CMS | E-commerce
+    </title>
+    <meta name="description" content="A Full Stack, Content Management System, E-commerce Web Developer with skills in HTML/HTML5 | CSS/CSS3 | BOOTSTRAP | JAVASCRIPT | JQUERY | ANGULARJS | PHP | MYSQL | On-Page SEO | WORDPRESS | WooCommerce">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="custom_lib.css">
+</head>
+
+<body style="background-image: linear-gradient(127.77568430595466deg, #051223, #135f6d);" ng-app="filter" ng-controller="filter_controller">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSL5KMB"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <img src="images/path897.jpg" class="bg fixed" id="mainBackground">
+    <div id="wrapper" class="d-flex justify-content-center">
+        <nav class="col-12 mt-4 d-flex justify-content-center">
+            <ul class="col-12 text-center col-sm-9 d-flex flex-row justify-content-around px-2 align-items-baseline">
+                <li class="now col-4">Home</li>
+                <li class="d-md-none"></li>
+                <li class="col-4">Portfolio</li>
+                <li class="d-md-none"></li>
+                <li class="px-0 col-4 d-flex justify-content-center"><p class="special p-1 p-sm-2 px-sm-4 round">Hire Me</p></li>
+            </ul>
+        </nav>
+        <div class="m-auto absolute top col-7"></div>
+    </div>
+    <div id="wrapper_back"></div>
+    <div id="body" style="overflow:scroll;">
+            <section id="home" class="container-fluid p-0 flex-wrap d-flex">
+                    <div class="col-12"></div>
+                    <div class="col-12 d-md-flex flex-md-row justify-content-md-center">
+                        <div id="main" class="col-md-8 col-12 flex-column pt-5 p-0 d-flex">
+                            <div class="d-flex">
+                                <h1 class="h1 col-lg-8 text-center text-xl-left">Hi ,I'm <i>Bishoy</i>..</h1>
+                            </div>
+                            <div id="animate" class="d-flex flex-column align-items-center flex-xl-row align-items-xl-start" style="position: relative;">
+                                <img src="images/cursor-512.png" id="cursor">
+                                <h1 class="h1 mx-2">A Web developer and I offer</h1>
+                                <div id="selector" class="col-xl-5 col-10 p-0 mt-3 mt-lg-0" style="color: black;">
+                                    <div id="background" class="bg-white d-flex justify-content-between align-items-center">
+                                        <p class="m-0 px-2 col-auto"></p>
+                                        <img id="drop" src="images/rect995.png" draggable="false" class="p-1 col-2">
+                                    </div>
+                                    <div id="dropdown" style="position: absolute;" class="col-10 p-0 collapse ">
+                                        <ul class="m-0 p-0">
+                                            <li class="select px-2 py-1">Front-end Web Development</li>
+                                            <li class="select px-2 py-1">Responsive Web Development</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--div class="col-12 d-sm-block d-none"></div>
+                    <div class="col-12"></div>
+                    <div style="z-index: 1;color: black;" class="col-12 d-inline-flex flex-column justify-content-center align-items-center">
+                        <div id="select" class="py-2 px-1 col-11 d-flex flex-lg-row align-items-center justify-content-center col-xl-3 px-lg-0 flex-column">
+                            <div class="col-10 p-0 m-0 col-md-12">
+                                <div id="user_background" class="bg-white flex-row d-flex justify-content-between align-items-center rounded">
+                                    <p class="col-10 m-auto p-1">{{selected}}</p>
+                                    <div id="user_drop" class="p-1 d-flex col-2 align-items-center justify-content-center">
+                                        <img id="user_drop" src="images/rect996.png" draggable="false" style="position: relative;width: 100%;">
+                                        <img id="rect" src="images/rect1058.png" style="position: absolute;height: 35%;">
+                                        <img id="user_drop" class="rotate" src="images/arrow.png" draggable="false" style="position: absolute;height: 35%;">
+                                    </div>
+                                </div>
+                                <div id="user_dropdown" style="position: absolute;" class="col-10 p-0 collapse">
+                                    <ul class="m-0 p-0">
+                                        <li ng-click="clicked($event)" class="pl-2 py-1">Front-end Web Development</li>
+                                        <li ng-click="clicked($event)" class="pl-2 py-1">Responsive Web Development</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div-->
+                    <div class="col-12 d-none d-sm-block"></div>
+                    <div class="col-12 d-flex align-items-end justify-content-center">
+                        <div class="round px-2 py-1 mb-3" id="scroll">
+                            Scroll Down
+                        </div>
+                    </div>
+                </section>
+                <section id="portfolioo" class="container-fluid px-3 flex-wrap d-flex flex-row">
+                    <div class="col-12 col-sm-9 p-0 d-flex flex-wrap flex-row align-items-start mt-3 rounded" id="portfolio">
+                        <div class="px-sm-2 pb-0 p-0 mt-3 mb-2 portfolio unblur text-center d-flex flex-column col-12 align-items-center" >
+                            <div class="d-flex align-items-center justify-content-center col-12" style="overflow: hidden;">
+                                no projects yet
+                            </div>
+                            <div class="dots" style="display: flex;flex-direction:row"></div>
+                        </div>
+                        <div class="d-flex flex-column mt-auto mx-3 mb-2 mx-sm-5 round options justify-content-between" ng-show="show" style="color:black;border: 3px solid #4b585c">
+                            <div class="flex-wrap justify-content-start align-self-start d-none filter justify-content-center">
+                                <div ng-repeat="filter in filters" ng-click="add_filter(filter)" class="mt-2 flex-row d-flex flex-wrap justify-content-between m-1 round bg-white p-1 fa fa-plus-circle">
+                                    <p class="my-auto m-1 ">{{filter.filter}}</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap flex-row">
+                                <div class="bg-success ml-1 p-1 my-1 round d-sm-none d-flex align-items-center" id="options">
+                                    <div class="fa fa-bars fa-2x p-1"></div>
+                                </div>
+                                <div class="d-flex flex-wrap flex-wrap-reverse flex-row col col-sm-auto justify-content-around">
+                                    <div class="col-auto bg-white my-1 ml-1 round" ng-repeat="sel_filter in filters| filter: {selected: true}">
+                                        <p class="my-auto fa fa-times-circle" ng-click="remove_filter(sel_filter)"><span> {{sel_filter.filter}}</span> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 d-none d-sm-block">
+                            <div id="options" class="h-75 col-auto mt-3 rounded px-5 d-flex flex-column flex-wrap" style="color:#003b45">
+                                <div class="mt-4 flex-row d-flex flex-wrap justify-content-between align-middle" ng-repeat="filter in filters">
+                                        <div style="height:25px;width:25px;" ng-click="add_filter(filter)" ng-class="{'check_sel':filter.selected}" class="mr-2 pt-1 check rounded my-auto d-flex">
+                                        </div>
+                                    <p class="my-auto" ng-class="{'selected_filter':filter.selected}">{{filter.filter}}</p>
+                                </div>
+                            </div>
+                    </div>
+                </section>
+        <section id="hire_me" class="container-fluid pt-5 p-0" style="overflow: hidden;position: relative;">
+            <div class="m-auto pt-5 col-9 col-sm-4">
+                <div class="col-6 m-auto unblur">
+                    <a id="profile" href="https://mostaql.com/u/bisho_3">
+                        <img class="img-fluid rounded golden" src="images/mostaql.png">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-12 p-0 trigger absolute" style="height:90%;z-index:1;">
+                <div class="col-12 clearfix"><img class="col-1 p-1 p-sm-5 float-right d-sm-none cross" src="./images/X.png"></div>
+                <div class="absolute col-12 d-flex justify-content-center"><img src="123.svg" class="m-auto h-100"></div>
+                <div class="text-center p-1 my-2 trigger1" style="font-size: 1.4rem;">About Me</div>
+                <div class="reveal flex-column flex-wrap d-block d-sm-flex flex-sm-row my-sm-5 mx-3" style="overflow:scroll;">
+                    <div class="p-2 pl-sm-0 col-12 col-sm-5 row justify-content-around m-0 border-right-sm border-bottom-sm" style="border-color: #c3dee5;">
+                        <div class="my-2"><img src="images/my_photo.png" width="180px" style="border-radius: 25px;"></div>
+                        <p class="m-2 text-center pt-1 pt-sm-5 col-12 col-sm-8" style="word-wrap: break-word;">
+                            My name is Bishoy George.<br>I'm a Front-end Web developer specialized in responsive Web development, interactive UX and Web animations.
+                            <br><br>I love taking on challenges and tackle them
+                        </p>
+                    </div>
+                    <div class="pr-0 py-3 py-sm-1 col-12 col-sm-7 m-0 border-left-sm text-center" style="border-color: #c3dee5;font-size: 2em;">Skills
+                        <div class="d-flex flex-wrap justify-content-between px-0 mt-sm-4" style="font-size: 0.5em;">
+                            <div class="col-6 d-flex flex-row flex-wrap justify-content-start py-0 mt-4 my-sm-1 text-left" ng-repeat="skill in skills">
+                                <span class="col-12 col-sm-4 p-0 p-sm-1">{{skill.name}}</span>
+                                <div class="my-2 col-sm-7 col-11 bg-white d-flex p-0 round h-25 my-auto ml-0">
+                                    <div class="round mx-1 skills h-50 my-auto"  ng-style="{ 'width': skill.level + '%' }"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.6/SmoothScroll.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <script src="./filter.controller.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.6.0/lazyload.min.js">var myLazyLoad = new LazyLoad();</script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+    $(".slide").slick({
+        slidesToShow: 1,
+        rows:2,
+        arrows:false,
+        speed: 200,
+        dots:true,
+        vertical:true,
+        nextArrow:'<button class="fa fa-chevron-circle-right fa-2x navi"></button>',
+        prevArrow:'<button class="fa fa-chevron-circle-left fa-2x navi"></button>',
+        slidesToScroll: 1,
+        verticalSwiping:true,
+        mobileFirst:true,
+        responsive: [
+            {
+            breakpoint: 1024,
+            settings: {
+                rows:2,
+                arrows:true,
+                slidesToShow: 3,
+                vertical:false,
+                slidesToScroll: 3,
+                dots:true,
+                verticalSwiping:false,
+                appendDots:$(".dots"),
+            }
+            },
+        ]
+		});});
+    </script>
+    <script type="text/javascript">
+    var offset = function(element,elem_id) {
+                var top = 0,
+                    left = 0;
+                while (element) {
+                    if(element.id==elem_id)break;
+                    top += element.offsetTop || 0;
+                    left += element.offsetLeft || 0;
+                    element = element.parentElement;
+                };
+
+                return {
+                    top: top,
+                    left: left
+                };
+            };
+
+    (function($) {
+        $.fn.clickToggle = function(func1, func2) {
+            var funcs = [func1, func2];
+            this.data('toggleclicked', 0);
+            this.click(function() {
+                var data = $(this).data();
+                var tc = data.toggleclicked;
+                $.proxy(funcs[tc], this)();
+                data.toggleclicked = (tc + 1) % 2;
+            });
+            return this;
+        };
+        }(jQuery));
+        $("#options").clickToggle(
+            function(){
+                $(".options").addClass("filter-op");
+                $(".filter").addClass("d-flex");
+                $(".portfolio").addClass("blur");},
+            function(){
+                $(".options").removeClass("filter-op");
+                $(".filter").removeClass("d-flex");
+                $(".portfolio").removeClass("blur");}
+            );
+        var show=function(){
+            $(".golden").addClass("blur");
+            $(".reveal").addClass("reveal-show");
+            $(".trigger").addClass("trigger-hover");
+            $(".cross").show(500);
+            }
+
+        var hide=function(){
+            $(".golden").removeClass("blur");
+            $(".reveal").removeClass("reveal-show");
+            $(".trigger").removeClass("trigger-hover");
+            $(".cross").hide(500);
+            }
+        $(".golden").mousedown(function(){  $(this).css({"border-width":"8px"});  } );
+        $(".golden").mouseup(function(){  $(this).css({"border-width":"6px"});  } );
+        $("#cursor").hide();
+        $(".cross").hide();
+        $(".trigger").clickToggle(show,hide);
+        $(".trigger").hover(show,hide);
+        var flag=true;
+        var nav =true;
+        history.pushState('', "Home","/Home");
+        var old="home";
+        $(body).scroll(function(e) {
+            var scroll = $(body).scrollTop();
+            var vb = $("#body").height();
+            var vh = window.innerHeight;
+            var off_top=(document.getElementById("mainBackground").height-vh)*(scroll)/(body.scrollHeight-body.offsetHeight);
+            $("#mainBackground").css({top:-off_top});
+            var i = Math.floor((scroll+50) / ($(window).outerHeight()-$("#wrapper").height()))*2;
+            $(".now").removeClass("now");
+            $("nav>ul>li").eq(i).addClass("now");
+            if(i<2)if(old!="home"){history.replaceState('', "Home","/Home");old="home";console.log("home");}
+            if(i>=2&&i<3)if(old!="portfolio"){history.replaceState('', "Portfolio","/Portfolio");old="portfolio";console.log("portfolio");}
+            if(i>3)if(old!="hire_me"){history.replaceState('', "Hire_me","/Hire_Me");old="hire_me";console.log("hire-me");}
+            if(scroll<0.5*vb){
+                $(".top").addClass("col-7").css({height:5+"%"});}
+            if(scroll>0.4*vb && scroll<0.7*vb){
+                ratio=scroll/vb/0.7
+                $(".top").removeClass("col-7").css({width:ratio*100+"%"});
+            }
+            if(scroll>0.6*vb&&scroll<vb){
+                ratio=scroll/vb
+                ratio=(ratio-0.6)/0.004;
+                $(".top").removeClass("h-5");
+                var wrapper_height=$("#wrapper").height();
+                $("#wrapper_back").height(wrapper_height);
+                $("#body").height(1*vh-wrapper_height);
+            }
+            if(scroll>vb-5){
+                $(".top").removeClass("col-7").css({width:100+"%"});
+                }
+        });
+        $("nav>ul>li").on('click', function() {  
+            var i = $(this).index()/2;
+            var scrollto = $("section").eq(i).attr("id");
+            document.getElementById(scrollto).scrollIntoView({behavior: "smooth"});
+        });
+        $("#scroll").click(function(){document.getElementById("portfolioo").scrollIntoView({behavior: "smooth"});});
+        $("#rect").hide();
+        $("#drop").removeClass("p-1").addClass("p-0");
+        $("#user_drop").hover(function() {
+            $(this).removeClass("p-1").addClass("p-0");
+            $(".rotate").css('height', '40%');
+            $("#rect").css('height', '40%');
+        }, function() {
+            $(this).removeClass("p-0").addClass("p-1");
+            $(".rotate").css('height', '35%');
+            $("#rect").css('height', '35%');
+        });
+        $(document).click(function() {
+            $("#user_dropdown").slideUp();
+            if ($("#user_background>p").is(":empty") && $("#user_dropdown").is(":hidden")) {
+                document.getElementById("user_background").style.border = "2px solid red";
+            }
+        });
+        $("#wrapper").click(function(e) {
+            e.stopPropagation();
+            return false;
+        });
+        $("#user_background").click(function(e) {
+            e.stopPropagation();
+            return false;
+        }).on('click', function(e) {
+            console.log(e.target,document.getElementById("user_drop"));
+            if ($(".rotate").hasClass("rotated")&&(e.target.id=="user_drop"||e.target==document.getElementById("rect"))) {
+                document.getElementById("portfolioo").scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                $("#user_dropdown").slideToggle(
+                    function() {
+                        if ($("#user_background>p").is(":empty") && $("#user_dropdown").is(":hidden")) {
+                            document.getElementById("user_background").style.border = "2px solid red";
+                        } else if ($("#user_dropdown").is(":hidden")) {
+                            document.getElementById("user_background").style.border = "transparent";
+                        }
+                    }
+                );
+            }
+        });
+        $("#user_dropdown>ul>li").on('click', function() {
+            $(".rotate").addClass("rotated");
+            $("#rect").addClass("down").show(100);
+            $(".selected").removeClass("selected");
+            $(this).addClass("selected");
+        });
+        $(window).on("load", function() {
+            var em = parseInt($("html").css("font-size"));
+            var vw = window.innerWidth;
+            var vh = window.innerHeight;
+            var vb = $("#body").height();
+            $("#dropdown").slideDown();
+            var wrapper_height=$("#wrapper").height();
+            $("#wrapper_back").height(wrapper_height);
+            var select = document.getElementsByClassName("select")[0];
+            var selection_ch = $(".select:first").width() / 2;
+            var selection_cv = $(".select:first").height() / 2;
+            var drop = document.getElementById("drop");
+            var drop_ch = $("#drop").width() / 2;
+            var drop_cv = $("#drop").height() / 2;
+            $("#body").height(1*vh-wrapper_height);
+            $("#cursor").show();
+            $("#cursor").offset({
+                top: drop.y + drop_cv,
+                left: drop.x + drop_ch
+            });
+            var sel_top=offset(select,"animate").top;
+            var sel_left=offset(select,"animate").left;
+            animation(cursor);
+            function animation(element) {
+                $(element)
+                    .show(500)
+                    .delay(1000)
+                    .animate({
+                        top: offset(drop,"animate").top + drop_cv,
+                        left: offset(drop,"animate").left + drop_ch
+                    }, {
+                        duration: 1000,
+                        step: function(x, fx) {
+                            if (fx.elem.x <drop.x + drop_ch * 2) {
+                                $("#drop").removeClass("p-1").addClass("p-0");
+                            }
+                        },
+                        complete: function() {
+                            $("#dropdown").slideDown();
+                        }
+                    })
+                    .delay(500)
+                    .animate({
+                        top: sel_top + selection_cv,
+                        left: sel_left + selection_ch
+                    }, {
+                        duration: 1000,
+                        step: function(x, fx) {
+                            if (fx.elem.x < drop.x) {
+                                $("#drop").removeClass("p-0").addClass("p-1");
+                            }
+                            ///////////// window.devicePixelRatio
+                            if (fx.elem.y > offset(select,"#home").top-(10*em)&&fx.elem.x<offset(select).left+(2*selection_ch) )
+                            {
+                                $(".select:first").css({
+                                    "background-color": "#0d3955",
+                                    "color": "white"
+                                });
+                            }
+                        }
+                    })
+                    .delay(1000)
+                    .queue(function(next) {
+                        $("#dropdown").slideUp();
+                        $("#background>p").html($(".select:first").text());
+                        next();
+                    })
+                    .queue(function(next) {
+                        $(".select").css({
+                            "background-color": "white",
+                            "color": "black"
+                        });
+                        $(this).offset({
+                            top: drop.y +4 * em,
+                            left: drop.x + 5 * em
+                        }).hide();
+                        $(".select:nth-child(1)").hide();
+                        $(".select:nth-child(2)").show();
+                        $(".select:nth-child(2)").after($(".select:nth-child(1)"));
+                        next();
+                    });
+                setTimeout(function() {
+                    animation(cursor);
+                }, 6000);
+            }
+        });
+
+    </script>
+</body>
+
+</html>
