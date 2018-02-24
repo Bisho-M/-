@@ -1,0 +1,29 @@
+.bg{
+	background-size: contain;
+	z-index:-1;
+}
+
+.relative{
+	position:relative;
+}
+
+.absolute{
+	position: absolute;
+}
+.fixed{
+	position:fixed;
+}
+.unblur{
+    transition: filter 1s linear,opacity 0.75s linear ;
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    -ms-filter: blur(0px);
+    opacity: 1;
+}
+.blur{
+    transition: filter 1s linear 0.5s,opacity 0.75s linear ;
+    -webkit-filter: blur(7px);
+    filter: blur(7px);
+    -ms-filter: blur(7px);
+    opacity: 0.5;
+}

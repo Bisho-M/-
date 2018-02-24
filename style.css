@@ -1,0 +1,400 @@
+.border-bottom-sm{
+    border-bottom:none;
+}
+@media (max-width: 575px) {
+    html {
+        font-size:20px;
+    }
+    .border-bottom-sm{
+        border-bottom:3px solid;
+    }
+    .golden{
+        background-color: #ffffff!important;
+    }
+    .portfolio{
+        height: 70%;
+    }
+    #portfolio{
+        height:95%;
+    }
+    .reveal{
+        height:80%;
+    }   
+}
+
+@media (min-width: 576px){
+    html {
+        font-size: 14px;
+    }
+    .border-sm{
+        border:3px solid;
+    }
+    .border-sm-bottom{
+        border-bottom:3px solid;
+    }
+    .border-left-sm{
+        border-left:3px solid;
+    }
+    .border-right-sm{
+        border-right:3px solid;
+    }
+}
+
+@media (min-width: 768px){
+    html {
+        font-size: 19px;
+    }
+    .portfolio{
+        height: 75%;
+    }
+    #portfolio{
+        height:75%;
+    }
+}
+
+@media (min-width: 1440px) {
+    html {
+        font-size: 24px;
+    }
+}
+html{
+    -ms-overflow-style:none;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    margin: 0;
+    user-select: none;
+}
+
+#wrapper {
+    position: fixed;
+    box-sizing: content-box;
+    top: 0;
+    width: 100%;
+    cursor: default;
+    color: white;
+    font-size: 1.3rem;
+}
+#wrapper>nav>ul>li:nth-child(odd){
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 0.7em;
+}
+
+.absolute {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    
+}
+
+.special{
+    border: 3px dashed #6fda44;
+}
+.special:hover{
+    border-style: solid;
+}
+
+.top{
+    background: -webkit-linear-gradient(left,#1b00af27, #89c2f1ff, #1b00af27);
+    background: -moz-linear-gradient(left,#1b00af27, #89c2f1ff, #1b00af27);
+    background: linear-gradient(to left,rgba(27, 0, 175, 0.153), rgb(137, 194, 241), rgba(27, 0, 175, 0.153));
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5%;
+}
+
+nav > img {
+    position: relative;
+    width: 59vw;
+    flex: 1;
+    opacity: 1;
+}
+
+section {
+    box-sizing: border-box;
+    margin: 0;
+    color: white;
+}
+
+#blur {
+    background: linear-gradient(rgba(68, 109, 239, 0.541), rgba(100, 184, 211, 0.333));
+    filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;}
+.helper {
+    vertical-align: middle;
+    height: 100%;
+    align-self: center;
+}
+
+#background {
+    filter: blur(1px);
+}
+
+#background > p {
+    font-size:1em;
+}
+
+.h1 {
+    font-size: 1.7em;
+}
+
+.h2 {
+    font-size: 1.5em;
+}
+
+#dropdown {
+    background-color: white;
+    filter: blur(1px);
+    font-size: 1em;
+}
+
+li {
+    list-style: none;
+}
+
+#cursor {
+    position: absolute;
+    width: 1.2em;
+    z-index: 1;
+    top:0;
+    left:0;
+}
+
+#selector {
+    user-select: none;
+    cursor: default;
+}
+
+#select_back {
+    background: rgba(9, 48, 72, 255);
+    color: white;
+    position: absolute;
+    filter: blur(5px);
+    height: 100%;
+}
+
+#select {
+    color: white;
+    position: absolute;
+    cursor: default;
+}
+
+.selected {
+    display: none;
+}
+select{
+    -webkit-appearance: none;
+    border: none;
+    overflow: hidden;
+}
+#user_background {
+    color: black;
+    font-size: 1em;
+}
+
+#user_dropdown {
+    background-color: white;
+    color: black;
+    font-size: 1em;
+}
+
+#user_dropdown > ul > li:hover {
+    background-color: #0d3955;
+    color: white;
+}
+
+.rotated {
+    transform: translateY(45%);
+    transition: transform 0.5s linear;
+}
+.down{
+    transform: translateY(-45%);
+    transition: transform 0.5s linear;
+}
+#cancel {
+    filter: contrast(0);
+}
+
+figure :hover {
+    filter: contrast(1) hue-rotate(180deg) !important;
+}
+
+#home{
+    height: 100%;
+}
+
+#portfolioo {
+    height: 100%;
+}
+
+#hire_me {
+	height: 100%;
+}
+
+footer{
+    height: 40vh;
+}
+
+.now{
+    color: #db2727;
+}
+
+
+.web{
+    background-color:white;
+    width:200px;
+    height:180px;
+    color: black;
+}
+.round{
+    border-radius: 100em;
+}
+.trigger{
+    bottom: -79%;
+    transition: bottom 0.5s;
+}
+.trigger-hover{
+    bottom: 2%;
+}
+
+.skills{
+    background-color: #336b87;
+}
+.reveal{
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 1s linear 0.5s,visibility 1s linear 0.5s;
+    -moz-transition: opacity 1s linear 0.5s,visibility 1s linear 0.5s;
+    transition: opacity 1s linear 0.5s,visibility 1s linear 0.5s;
+}
+.reveal-show{
+    opacity: 1;
+    visibility: visible;
+}
+.golden{
+    border:6px solid #45A3E2;
+    background-color: #45A3E2;
+}
+.golden:hover{
+    border:6px solid #ffffff;
+}
+.options{
+    max-height: 100em;
+    transition: max-height 1s linear;
+}
+.filter-op{
+    max-height: 50%;
+    height: 50%;
+    border-radius: 25px;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    align-items: flex-end;
+}
+.fa-plus-circle{
+    color: #38A846;
+}
+.fa-plus-circle>p{
+    color: black;
+}
+.fa-bars{
+    color: white;
+}
+.fa-times-circle:hover{
+    color: red;
+    cursor: pointer;
+}
+.fa-times-circle>span{
+    color: black;
+    user-select: none;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fa-times-circle:hover>span{
+    font-weight: normal;
+}
+#scroll{
+    border: 2px solid white;
+    cursor: pointer;
+}
+#portfolio{
+    background: rgba(87, 179, 255, 0.534);
+}
+#options{
+    background: rgb(255, 255, 255)
+}
+button{
+    background: transparent;
+    border: none;
+}
+.navi{
+    border-radius: 50px;
+    background: white;
+    cursor: pointer;
+    color: rgba(219, 39, 39, 0.5);
+}
+.navi:hover{
+    color: #db2727;
+    border-radius: 50px;
+    background: white;
+}
+.slick-dots li.slick-active{
+    background:#db2727;
+    font-size: 0;
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+button:focus {outline:0;}
+.slick-dots li{
+    background:rgb(255, 255, 255);
+    font-size: 0;
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    margin: 6px;
+    position: relative;
+    border-radius: 10px;
+}
+.slick-dots{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.dots .slick-dots{
+    display: flex;
+    flex-direction: row;
+}
+.check{
+    border: 2px solid #6fda44;
+}
+.check:hover{
+    background-color:  #6fda44;
+    cursor: pointer;
+}
+.selected_filter{
+    font-weight: bold;
+}
+.check_sel{
+    background-color: #6fda44;
+}
+@media (min-width: 768px){
+    .trigger-hover{
+        bottom: -3%;
+    }
+    .round{
+        border-radius: 10em;
+    }
+}
