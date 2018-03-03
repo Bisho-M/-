@@ -258,8 +258,8 @@
             $(".trigger").removeClass("trigger-hover");
             $(".cross").hide(500);
             }
-        $(".golden").mousedown(function(){  $(this).css({"border-width":"8px"});  } );
-        $(".golden").mouseup(function(){  $(this).css({"border-width":"6px"});  } );
+        $(".golden").mousedown(function(){ $(this).css({"border-width":"8px"}); } );
+        $(".golden").mouseup(function(){ $(this).css({"border-width":"6px"}); } );
         $("#cursor").hide();
         $(".cross").hide();
         $(".trigger").clickToggle(show,hide);
@@ -277,9 +277,9 @@
             var i = Math.floor((scroll+50) / ($(window).outerHeight()-$("#wrapper").height()))*2;
             $(".now").removeClass("now");
             $("nav>ul>li").eq(i).addClass("now");
-            if(i<2)if(old!="home"){history.replaceState('', "Home","/Home");old="home";console.log("home");}
-            if(i>=2&&i<3)if(old!="portfolio"){history.replaceState('', "Portfolio","/Portfolio");old="portfolio";console.log("portfolio");}
-            if(i>3)if(old!="hire_me"){history.replaceState('', "Hire_me","/Hire_Me");old="hire_me";console.log("hire-me");}
+            if(i<2)if(old!="home"){history.replaceState('', "Home","/Home");old="home";}
+            if(i>=2&&i<3)if(old!="portfolio"){history.replaceState('', "Portfolio","/Portfolio");old="portfolio";}
+            if(i>3)if(old!="hire_me"){history.replaceState('', "Hire_me","/Hire_Me");old="hire_me";}
             if(scroll<0.5*vb){
                 $(".top").addClass("col-7").css({height:5+"%"});}
             if(scroll>0.4*vb && scroll<0.7*vb){
